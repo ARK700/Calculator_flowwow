@@ -11,20 +11,18 @@ html {
   display: flex;
   flex-direction: column;
   background-color: lightgray;
-
-  padding-left: 15px;
   border: darkgrey solid 4px;
 }
-h2 {
-  margin: 15px 0 0 0;
+.gear_size {
+  width: 15px;
+  height: 15px;
+  margin: 3px 0 0 3px;
+  padding: 0;
 }
-/* .hat {
-  text-align: left;
-  padding-left: 13px;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 300;
-} */
-
+h2 {
+  margin: 0 0 0 15px;
+  padding: 0;
+}
 div select,
 div input {
   width: 60px;
@@ -34,11 +32,6 @@ div input {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-
-/* td {
-  display: block;
-} */
-
 #resultOf {
   border: red solid 2px;
   width: 150px;
@@ -49,9 +42,17 @@ div input {
   font-weight: 700;
   font-size: 24px;
   font-family: "Courier New", Courier, monospace;
+  margin-left: 15px;
 }
 .paragrath {
   font-family: "Courier New", Courier, monospace;
   font-weight: 550;
   font-size: 16px;
+}
+.container {
+  display: flex;
+  margin-left: 15px;
+}
+.addon {
+  margin-left: 25px;
 }
