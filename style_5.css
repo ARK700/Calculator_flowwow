@@ -1,0 +1,57 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  width: 100vw;
+  min-width: 200px;
+  max-width: 500px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+
+  padding-left: 15px;
+  border: darkgrey solid 4px;
+}
+h2 {
+  margin: 15px 0 0 0;
+}
+/* .hat {
+  text-align: left;
+  padding-left: 13px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+} */
+
+div select,
+div input {
+  width: 60px;
+  height: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* td {
+  display: block;
+} */
+
+#resultOf {
+  border: red solid 2px;
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  text-align: justify;
+  padding-left: 5px;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+}
+.paragrath {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 550;
+  font-size: 16px;
+}

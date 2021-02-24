@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="500" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+    <link rel="stylesheet" href="style_5.css" />
+    <title>FLW Calculate</title>
+    <!-- http://f0493535.xsph.ru/index_5.html -->
+  </head>
+  <body>
+    <div class="hero">
+      <h2>итого на FlowWow</h2>
+
+      <p id="resultOf">here is the cost</p>
+
+      <form name="calculator">
+        <div class="paragrath">Количество</div>
+        <div>
+          <input
+            name="buketQnty"
+            type="number"
+            value="5"
+            min="1"
+            step="2"
+            tabindex="1"
+            required
+          />
+        </div>
+        <div class="paragrath">Стоимость</div>
+        <div>
+          <input
+            name="money"
+            type="number"
+            value="200"
+            step="10"
+            tabindex="2"
+            required
+          />
+        </div>
+        <div class="paragrath">хотим Profit</div>
+        <div>
+          <input
+            name="interest"
+            type="number"
+            value="1000"
+            step="100"
+            tabindex="3"
+            required
+          />
+        </div>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
